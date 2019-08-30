@@ -18,7 +18,7 @@ engine.setProperty('voice', voices[len(voices)-1].id)
 
 def speak(audio):
     print('Computer: ' + audio)
-    engine.say(audio)
+    engine.say(audio) 
     engine.runAndWait()
 
 def greetMe():
